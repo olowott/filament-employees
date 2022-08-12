@@ -1,7 +1,8 @@
-import './bootstrap';
+import Alpine from 'alpinejs'
+import NotificationsAlpinePlugin from '../../vendor/filament/notifications/dist/module.esm'
 
-import Alpine from 'alpinejs';
+Alpine.plugin(NotificationsAlpinePlugin)
 
-window.Alpine = Alpine;
+window.Alpine = Alpine
 
-Alpine.start();
+Alpine.start()
